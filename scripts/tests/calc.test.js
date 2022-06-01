@@ -8,9 +8,6 @@ describe("Calculator", () => {
         test("should return 73 for 42 + 31", () => {
             expect(addition(42, 31)).toBe(73);
         });
-        test("Should return 'Please enter numbers only' for string", () => {
-            expect(addition(42, "henk")).toBe("Please enter numbers only");
-        })
     })
     describe("Subtraction function", () => {
 
